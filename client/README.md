@@ -2,6 +2,19 @@
 
 # Next.JS | AWS | Cognito, EC2, Node, RDS, Postgres, Tailwind, Prisma
 
+**May need to run**
+next  14.0.0 - 14.2.9
+Severity: high
+Next.js Cache Poisoning - https://github.com/advisories/GHSA-gp8f-8m3g-qvj9
+fix available via `npm audit fix --force`
+Will install next@14.2.14, which is outside the stated dependency range
+node_modules/next
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix --force
+
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
