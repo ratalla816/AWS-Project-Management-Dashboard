@@ -11,8 +11,8 @@ SELECT setval(pg_get_serial_sequence('"DATA_MODEL_NAME_HERE"', 'id'), coalesce(m
 Build a Nextjs Project Management App & Deploy on AWS | Cognito, EC2, Node, RDS, Postgres, Tailwind
 https://www.youtube.com/watch?v=KAV8vo7hGAo&t=382s
 
-https://youtu.be/KAV8vo7hGAo?t=2696 
-44:56
+https://youtu.be/KAV8vo7hGAo?t=11215 
+03:06:55
 
 **May need to run**
 next  14.0.0 - 14.2.9
@@ -32,7 +32,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+First, run the development server (client & server):
 
 ```bash
 npm run dev
