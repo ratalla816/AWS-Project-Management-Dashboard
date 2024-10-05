@@ -2,6 +2,9 @@
 
 # Next.JS | AWS | Cognito, EC2, Node, RDS, Postgres, Tailwind, Prisma
 
+NEXT_PUBLIC_API_BASE_URL=http://localhost:8000
+
+
 
 Build a Nextjs Project Management App & Deploy on AWS | Cognito, EC2, Node, RDS, Postgres, Tailwind
 https://www.youtube.com/watch?v=KAV8vo7hGAo&t=382s
