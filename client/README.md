@@ -3,7 +3,9 @@
 # Next.JS | AWS | Cognito, EC2, Node, RDS, Postgres, Tailwind, Prisma
 
 
-
+#Test database:
+<br>
+SELECT setval(pg_get_serial_sequence('"DATA_MODEL_NAME_HERE"', 'id'), coalesce(max(id)+1, 1), false) FROM "DATA_MODEL_NAME_HERE";
 
 
 Build a Nextjs Project Management App & Deploy on AWS | Cognito, EC2, Node, RDS, Postgres, Tailwind
