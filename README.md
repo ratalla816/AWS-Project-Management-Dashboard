@@ -11,8 +11,8 @@ SELECT setval(pg_get_serial_sequence('"DATA_MODEL_NAME_HERE"', 'id'), coalesce(m
 Build a Nextjs Project Management App & Deploy on AWS | Cognito, EC2, Node, RDS, Postgres, Tailwind
 https://www.youtube.com/watch?v=KAV8vo7hGAo&t=382s
 
-https://youtu.be/KAV8vo7hGAo?t=12558 
-03:29:31
+https://youtu.be/KAV8vo7hGAo?t=15021
+04:10:14
 
 **May need to run**
 next  14.0.0 - 14.2.9
