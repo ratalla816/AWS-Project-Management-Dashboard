@@ -113,7 +113,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
   - [Description](#description)
   - [Documentation](#documentation)
   - [Deployment](#deployment)
-  - [Screenshots](#screenshot)
+  - [Screenshot](#screenshot)
   - [Acknowledgements](#acknowledgements)
   - [License](#license)
   - [Contact](#contact)
@@ -177,7 +177,7 @@ Delete: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example
  
  
   
-  ## Screenshots
+  ## Screenshot
   
   * PostgreSQL testing via pgAdmin
   <br>
