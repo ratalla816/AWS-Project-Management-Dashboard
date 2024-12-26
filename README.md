@@ -111,7 +111,7 @@ This is accomplished by Leveraging AWS Services - Lambda for serverless function
   - [Description](#description)
   - [Documentation](#documentation)
   - [Deployment](#deployment)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Acknowledgements](#acknowledgements)
   - [License](#license)
   - [Contact](#contact)
@@ -175,14 +175,15 @@ Delete: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example
  
  
   
-  ## Screenshot
+  ## Screenshots
   
-  * PostgreSQL testing in pgAdmin
+  * PostgreSQL testing via pgAdmin
+  <br>
   <br>
   ![Screenshot](./assets/images/pgAdmin4-task-patch.jpg)
   <br>
   <br>
-  * Testing in Postman
+  * Testing via Postman
   <br>
   <br>
   ![Screenshot](./assets/images/postman-task-patch.jpg)
