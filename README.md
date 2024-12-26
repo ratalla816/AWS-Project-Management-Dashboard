@@ -125,19 +125,19 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
   * AWS Architecture Diagram
   <br>
   <br>
-  ![Screenshot](./assets/images/AWS_Architecture_Diagram.jpg)
+  ![Screenshots](./assets/images/AWS_Architecture_Diagram.jpg)
   <br>
   <br>
   * Data Model Diagram
   <br>
   <br>
-  ![Screenshot](./assets/images/Data_Model_Diagram.jpg)
+  ![Screenshots](./assets/images/Data_Model_Diagram.jpg)
   <br>
   <br>
   * AWS Cognito Diagram
   <br>
   <br>
-  ![Screenshot](./assets/images/ProjectManagement_Map_AWS_Cognito.Diagram.jpg)
+  ![Screenshots](./assets/images/ProjectManagement_Map_AWS_Cognito.Diagram.jpg)
   <br>
 
 ### Web Resources
@@ -182,19 +182,19 @@ Delete: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example
   * PostgreSQL testing via pgAdmin
   <br>
   <br>
-  ![Screenshot](./assets/images/pgAdmin4-task-patch.jpg)
+  ![Screenshots](./assets/images/pgAdmin4-task-patch.jpg)
   <br>
   <br>
   * Testing via Postman
   <br>
   <br>
-  ![Screenshot](./assets/images/postman-task-patch.jpg)
+  ![Screenshots](./assets/images/postman-task-patch.jpg)
   <br>
   <br>
   * TBD
   <br>
   <br>
-  ![Screenshot](./assets/images/TBD.jpg)
+  ![Screenshots](./assets/images/TBD.jpg)
   
   
   ## Acknowledgements
