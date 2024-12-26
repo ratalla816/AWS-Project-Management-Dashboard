@@ -123,14 +123,17 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
  ### Diagrams
  
   * AWS Architecture Diagram
+  <br>
  ![Screenshot](./assets/images/AWS_Architecture_Diagram.jpg)
   <br>
   <br>
   * Data Model Diagram
+  <br>
  ![Screenshot](./assets/images/Data_Model_Diagram.jpg)
   <br>
   <br>
   * AWS Cognito Diagram
+  <br>
  ![Screenshot](./assets/images/ProjectManagement_Map_AWS_Cognito.Diagram.jpg)
   
 
@@ -174,14 +177,17 @@ Delete: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example
   ## Screenshot
   
   * PostgreSQL testing via pgAdmin
+  <br>
  ![Screenshot](./assets/images/pgAdmin4-task-patch.jpg)
   <br>
   <br>
   * Testing via Postman
+  <br>
  ![Screenshot](./assets/images/postman-task-patch.jpg)
   <br>
   <br>
   * TBD
+  <br>
  ![Screenshot](./assets/images/TBD.jpg)
   
   
