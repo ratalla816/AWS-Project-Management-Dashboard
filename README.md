@@ -1,3 +1,45 @@
+
+# AWS-Project-Management-Dashboard
+
+
+  ![badge](https://img.shields.io/github/languages/top/ratalla816/AWS-Project-Management-Dashboard)
+  <br> 
+  ![badge](https://img.shields.io/github/languages/count/ratalla816/AWS-Project-Management-Dashboard)
+  <br>
+  ![badge](https://img.shields.io/github/issues/ratalla816/AWS-Project-Management-Dashboard)
+  <br>
+  ![badge](https://img.shields.io/github/issues-closed/ratalla816/AWS-Project-Management-Dashboard)
+  <br>
+  ![badge](https://img.shields.io/github/last-commit/ratalla816/AWS-Project-Management-Dashboard)
+  <br>
+  ![badge](https://img.shields.io/badge/license-MIT-important)
+
+  <p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=aws,react,nodejs,express,materialui,dynamodb" />
+  </a>
+</p>
+  
+## Description
+
+A simple to use web application that allows users to create a to-do list by adding tasks that can be edited and deleted - Updates to the task list persist as objects in a nonrelational database. 
+<br>
+<br>
+**Well Architected Framework - Loose Coupling**
+<br>
+Front and backend interdependencies are limited by allowing the components to interact only through specific interfaces.
+<br>
+This is accomplished by Leveraging AWS Services - Lambda for serverless functions to host the API, Amplify hosts the frontend, and database management via DynamoDB.
+
+
+### ⚙️ Technologies
+
+**React.js | Material UI | Node.js | Express.js | AWS Amplify | AWS Lambda | AWS DynamoDB**
+
+* The frontend is built with React and Material UI and was deployed in seconds using AWS Amplify.  
+* Requests from the React frontend are handled via a backend API constructed and deployed using Node.js, Express.js and AWS Lambda.
+* Serverless data storage is handled using DynamoDB. 
+
 # Enterprise Project Management Application
 
 # Next.JS | AWS | Cognito, EC2, Node, RDS, Postgres, Tailwind, Prisma
@@ -65,46 +107,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-# AWS-Project-Management-Dashboard
-
-
-  ![badge](https://img.shields.io/github/languages/top/ratalla816/AWS-Project-Management-Dashboard)
-  <br> 
-  ![badge](https://img.shields.io/github/languages/count/ratalla816/AWS-Project-Management-Dashboard)
-  <br>
-  ![badge](https://img.shields.io/github/issues/ratalla816/AWS-Project-Management-Dashboard)
-  <br>
-  ![badge](https://img.shields.io/github/issues-closed/ratalla816/AWS-Project-Management-Dashboard)
-  <br>
-  ![badge](https://img.shields.io/github/last-commit/ratalla816/AWS-Project-Management-Dashboard)
-  <br>
-  ![badge](https://img.shields.io/badge/license-MIT-important)
-
-  <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=aws,react,nodejs,express,materialui,dynamodb" />
-  </a>
-</p>
-  
-## Description
-
-A simple to use web application that allows users to create a to-do list by adding tasks that can be edited and deleted - Updates to the task list persist as objects in a nonrelational database. 
-<br>
-<br>
-**Well Architected Framework - Loose Coupling**
-<br>
-Front and backend interdependencies are limited by allowing the components to interact only through specific interfaces.
-<br>
-This is accomplished by Leveraging AWS Services - Lambda for serverless functions to host the API, Amplify hosts the frontend, and database management via DynamoDB.
-
-
-### ⚙️ Technologies
-
-**React.js | Material UI | Node.js | Express.js | AWS Amplify | AWS Lambda | AWS DynamoDB**
-
-* The frontend is built with React and Material UI and was deployed in seconds using AWS Amplify.  
-* Requests from the React frontend are handled via a backend API constructed and deployed using Node.js, Express.js and AWS Lambda.
-* Serverless data storage is handled using DynamoDB. 
 
  
   ## Table of Contents
