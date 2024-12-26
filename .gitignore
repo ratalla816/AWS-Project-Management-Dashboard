@@ -13,8 +13,6 @@ server/.env
 client/.next/
 server/.next/
 
-
-
 /node_modules
 /.pnp
 .pnp.js
