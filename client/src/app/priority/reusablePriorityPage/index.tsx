@@ -1,4 +1,5 @@
 "use client";
+// The use client directive designates a component to be rendered on the client side and should be used when creating interactive user interfaces (UI) that require client-side JavaScript capabilities, such as state management, event handling, and access to browser APIs.
 
 import { useAppSelector } from "@/app/redux";
 import Header from "@/components/Header";
