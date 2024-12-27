@@ -34,7 +34,7 @@ This is accomplished by Leveraging AWS Services - Amazon EC2 to host the backend
 
 ## ⚙️ Technologies
 
-### Next.js | Material UI | PostgreSQL | Prisma | AWS Amplify | Amazon EC2 | Amazon RDS | Amazon Cognito | Tailwind 
+### Next.js | Material UI | PostgreSQL | Prisma | AWS Amplify | Amazon EC2 | Amazon RDS | Amazon Cognito | Tailwind | Amazon S3
 
 * The frontend is built with React and Material UI and was deployed in seconds using AWS Amplify.  
 * A backend API hosted on an EC2 instance handles requests from the frontend. 
@@ -169,7 +169,7 @@ Documentation: https://www.postgresql.org/docs/
 
    * The frontend is deployed using AWS Amplify - deployed application link: <https://main.d9jen3y4cqvrz.amplifyapp.com>
    <br>   
-   * The backend API is deployed using AWS EC2 - deployed API link: <https://3.128.202.137> 
+   * The backend API is deployed using AWS EC2 with a proxy API via API Gateway - deployed API link: <https://70nlkwfw7i.execute-api.us-east-2.amazonaws.com/prod> 
  
   
   ## Screenshot
