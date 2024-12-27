@@ -1,6 +1,4 @@
-
 # AWS-Project-Management-Dashboard
-
 
   ![badge](https://img.shields.io/github/languages/top/ratalla816/AWS-Project-Management-Dashboard)
   <br> 
@@ -29,28 +27,15 @@ Enterprise level project management application
 <br>
 Front and backend interdependencies are limited by allowing the components to interact only through specific interfaces.
 <br>
-This is accomplished by Leveraging AWS Services - Amazon EC2 to host the backend API, the frontend is deployed with AWS Amplify, and database management via Amazon RDS.
+This is accomplished by Leveraging AWS Services -  A backend API hosted on an EC2 instance handles requests from the frontend, the frontend is deployed with AWS Amplify, and database management via Amazon RDS.
 
 
 ## ⚙️ Technologies
 
 ### Next.js | Material UI | PostgreSQL | Prisma | AWS Amplify | Amazon EC2 | Amazon RDS | Amazon Cognito | Tailwind | Amazon S3 | AWS Lambda 
 
-* The frontend is built with React and Material UI and was deployed in seconds using AWS Amplify.  
-* A backend API hosted on an EC2 instance handles requests from the frontend. 
-* 
-
-
-#Test database:
-<br>
-SELECT setval(pg_get_serial_sequence('"DATA_MODEL_NAME_HERE"', 'id'), coalesce(max(id)+1, 1), false) FROM "DATA_MODEL_NAME_HERE";
-
-
-Build a Nextjs Project Management App & Deploy on AWS | Cognito, EC2, Node, RDS, Postgres, Tailwind
-https://www.youtube.com/watch?v=KAV8vo7hGAo&t=382s
-
-https://youtu.be/KAV8vo7hGAo?t=28994
-08:03:37 create RDS 
+https://youtu.be/KAV8vo7hGAo?t=33070
+09:11:50 lambda trigger: https://us-east-2.console.aws.amazon.com/lambda/home?region=us-east-2#/functions/pm_lambda-trigger?newFunction=true&tab=code
 
 <!-- **May need to run**
 next  14.0.0 - 14.2.9
@@ -63,13 +48,7 @@ node_modules/next
 1 high severity vulnerability
 
 To address all issues, run:
-  npm audit fix --force -->
-
-
-
-
-
- 
+  npm audit fix --force --> 
   ## Table of Contents
   - [Description](#description)
   - [Documentation](#documentation)
@@ -97,7 +76,6 @@ To address all issues, run:
   <br>
  ![Screenshot](./assets/images/ProjectManagement_Map_AWS_Cognito.Diagram.jpg)
   
-
 ### Getting Started
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
@@ -158,6 +136,8 @@ User guide: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html
 
   * Amazon Cognito<br>
 User guide: https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html
+<br>
+Authenticate existing React application users by using Amazon Cognito and AWS Amplify UI: https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/authenticate-react-app-users-cognito-amplify-ui.html
 
   * Tailwind CSS<br>
 Documentation: https://tailwindcss.com/docs
@@ -167,6 +147,9 @@ Documentation: https://www.prisma.io/docs/
 
   * PostgreSQL<br>
 Documentation: https://www.postgresql.org/docs/
+
+  * AWS Lambda<br>
+Documentation: https://docs.aws.amazon.com/lambda/latest/dg/welcome.html
 
 ## Deployment
 
