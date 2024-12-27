@@ -34,6 +34,8 @@ app.use("/search", searchRoutes);
 app.use("/users", userRoutes);
 app.use("/teams", teamRoutes);
 
+
+
 /* SERVER */
 // const port = (process.env.PORT) || 3000;
 // app.listen (port, () => {

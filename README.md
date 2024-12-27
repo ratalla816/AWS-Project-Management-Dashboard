@@ -34,7 +34,7 @@ This is accomplished by Leveraging AWS Services - Amazon EC2 to host the backend
 
 ## ⚙️ Technologies
 
-### Next.js | Material UI | PostgreSQL | Prisma | AWS Amplify | Amazon EC2 | Amazon RDS | Amazon Cognito | Tailwind | Amazon S3
+### Next.js | Material UI | PostgreSQL | Prisma | AWS Amplify | Amazon EC2 | Amazon RDS | Amazon Cognito | Tailwind | Amazon S3 | AWS Lambda 
 
 * The frontend is built with React and Material UI and was deployed in seconds using AWS Amplify.  
 * A backend API hosted on an EC2 instance handles requests from the frontend. 
