@@ -147,6 +147,9 @@ Getting Started: https://expressjs.com/en/starter/installing.html
   * AWS Amplify<br>
 User guide: https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html
 
+  *AWS Amplify Authenticator<br>
+User guide: https://ui.docs.amplify.aws/react/connected-components/authenticator
+
   * Amazon EC2<br>
 User guide: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html
 
