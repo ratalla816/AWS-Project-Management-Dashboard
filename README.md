@@ -153,7 +153,7 @@ User guide: https://ui.docs.amplify.aws/react/connected-components/authenticator
   * Amazon EC2<br>
 User guide: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html
 
-  * Amazon RDS<br>
+  * Amazon RDS Database<br>
 User guide: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html
 
   * Amazon Cognito<br>
