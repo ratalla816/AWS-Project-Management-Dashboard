@@ -22,27 +22,23 @@
   
 ## Description
 
-A simple to use web application that allows users to create a to-do list by adding tasks that can be edited and deleted - Updates to the task list persist as objects in a nonrelational database. 
+Enterprise level project management application
 <br>
 <br>
 **Well Architected Framework - Loose Coupling**
 <br>
 Front and backend interdependencies are limited by allowing the components to interact only through specific interfaces.
 <br>
-This is accomplished by Leveraging AWS Services - Lambda for serverless functions to host the API, Amplify hosts the frontend, and database management via DynamoDB.
+This is accomplished by Leveraging AWS Services - Amazon EC2 to host the backend API, the frontend is deployed with AWS Amplify, and database management via Amazon RDS.
 
 
-### ⚙️ Technologies
+## ⚙️ Technologies
 
-**React.js | Material UI | Node.js | Express.js | AWS Amplify | AWS Lambda | AWS DynamoDB**
+### Next.js | Material UI | PostgreSQL | Prisma | AWS Amplify | Amazon EC2 | Amazon RDS | Amazon Cognito | Tailwind 
 
 * The frontend is built with React and Material UI and was deployed in seconds using AWS Amplify.  
-* Requests from the React frontend are handled via a backend API constructed and deployed using Node.js, Express.js and AWS Lambda.
-* Serverless data storage is handled using DynamoDB. 
-
-# Enterprise Project Management Application
-
-# Next.JS | AWS | Cognito, EC2, Node, RDS, Postgres, Tailwind, Prisma
+* A backend API hosted on an EC2 instance handles requests from the frontend. 
+* 
 
 
 #Test database:
@@ -56,7 +52,7 @@ https://www.youtube.com/watch?v=KAV8vo7hGAo&t=382s
 https://youtu.be/KAV8vo7hGAo?t=28994
 08:03:37 create RDS 
 
-**May need to run**
+<!-- **May need to run**
 next  14.0.0 - 14.2.9
 Severity: high
 Next.js Cache Poisoning - https://github.com/advisories/GHSA-gp8f-8m3g-qvj9
@@ -67,45 +63,10 @@ node_modules/next
 1 high severity vulnerability
 
 To address all issues, run:
-  npm audit fix --force
+  npm audit fix --force -->
 
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
-
-First, run the development server (client & server):
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 
  
@@ -137,7 +98,38 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
  ![Screenshot](./assets/images/ProjectManagement_Map_AWS_Cognito.Diagram.jpg)
   
 
-### Web Resources
+### Getting Started
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<br>
+First, run the development server (client & server):
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+### Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [the Next.js GitHub repository](https://github.com/vercel/next.js) - find more examples and tutorials.
+- [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) - learn how to deploy your Next.js app.
+
+### Additional Resources
 
   * React<br>
 Documentation: https://react.dev/reference/react
@@ -155,23 +147,29 @@ Getting Started: https://expressjs.com/en/starter/installing.html
   * AWS Amplify<br>
 User guide: https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html
 
-  * AWS Lambda<br>
-Developer Guide: https://docs.aws.amazon.com/lambda/latest/dg/welcome.html<br>
-API Reference: https://docs.aws.amazon.com/lambda/latest/api/welcome.html<br>
-Operator Guide: https://docs.aws.amazon.com/lambda/latest/operatorguide/intro.html
+  * Amazon EC2<br>
+User guide: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html
 
-  * DynamoDB CRUD functions<br>
-Create: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example_dynamodb_PutItem_section.html<br>
-Read: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example_dynamodb_Scan_section.html<br>
-Update: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example_dynamodb_UpdateItem_section.html<br>
-Delete: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/example_dynamodb_DeleteItem_section.html
+  * Amazon RDS<br>
+User guide: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html
+
+  * Amazon Cognito<br>
+User guide: https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html
+
+  * Tailwind CSS<br>
+Documentation: https://tailwindcss.com/docs
+
+  * Prisma<br>
+Documentation: https://www.prisma.io/docs/
+
+  * PostgreSQL<br>
+Documentation: https://www.postgresql.org/docs/
 
 ## Deployment
 
-   * The frontend is deployed with TBD
+   * The frontend is deployed using AWS Amplify - deployed application link: <https://main.d9jen3y4cqvrz.amplifyapp.com>
    <br>   
-   * Backend: TBD
- 
+   * The backend API is deployed using AWS EC2 - deployed API link: <https://3.128.202.137> 
  
   
   ## Screenshot
