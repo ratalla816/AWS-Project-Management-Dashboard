@@ -167,8 +167,7 @@ Documentation: https://docs.aws.amazon.com/lambda/latest/dg/welcome.html
 
   * Lambda Trigger<br>
 Documentation: https://docs.aws.amazon.com/lambda/latest/dg/with-s3-example.html
-<br>
-Deployed script:
+Deployed Lambda script:
 
 ```javascript
 import https from "node:https";
