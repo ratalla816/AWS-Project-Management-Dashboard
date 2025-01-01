@@ -20,14 +20,7 @@
   
 ## Description
 
-Enterprise level project management application
-<br>
-<br>
-**Well Architected Framework - Loose Coupling**
-<br>
-Front and backend interdependencies are limited by allowing the components to interact only through specific interfaces.
-<br>
-This is accomplished by Leveraging AWS Services -  A backend API hosted on an EC2 instance handles requests from the frontend, the frontend is deployed with AWS Amplify, and database management via Amazon RDS.
+An enterprise-grade project management application that features robust data analytics and user management capabilities. The application is built with a Next.js frontend and a Node.js backend, with a PostgreSQL database. The application is deployed on AWS using EC2, RDS, and Cognito. The application is designed to be scalable and secure, with a focus on loose coupling and high availability.
 
 
 ## ⚙️ Technologies
