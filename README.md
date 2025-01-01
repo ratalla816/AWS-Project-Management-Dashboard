@@ -14,7 +14,7 @@
 
   <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=aws,react,nextjs,nodejs,express,prisma,linux,postgresql,tailwindcss,materialui,dynamodb" />
+    <img src="https://skillicons.dev/icons?i=aws,react,nextjs,nodejs,redux,express,prisma,linux,postgresql,tailwindcss,materialui" />
   </a>
 </p>
   
@@ -32,7 +32,7 @@ This is accomplished by Leveraging AWS Services -  A backend API hosted on an EC
 
 ## ⚙️ Technologies
 
-### Next.js | Material UI | PostgreSQL | Prisma | Amazon Linux | AWS Amplify | Amazon EC2 | Amazon RDS | Amazon Cognito | Tailwind CSS | Amazon S3 | AWS Lambda Trigger | AWS API Gateway | PM2  
+### Next.js | Material UI | PostgreSQL | Redux Toolkit | Prisma | Amazon Linux | AWS Amplify | AWS EC2 | AWS RDS | AWS Cognito | Tailwind CSS | AWS S3 | AWS Lambda Trigger | AWS API Gateway | PM2  
 
 https://youtu.be/KAV8vo7hGAo?t=33070
 09:11:50 lambda trigger: https://us-east-2.console.aws.amazon.com/lambda/home?region=us-east-2#/functions/pm_lambda-trigger?newFunction=true&tab=code
@@ -68,18 +68,45 @@ https://youtu.be/KAV8vo7hGAo?t=33070
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 <br>
-First, run the development server (client & server):
+First, make sure these are installed:
+
+- Git
+- Node.js
+- npm (Node Package Manager)
+- PostgreSQL ([download](https://www.postgresql.org/download/))
+- PgAdmin ([download](https://www.pgadmin.org/download/))
+
+### Installation Steps
+
+1. Clone the repository:
+   `git clone [git url]`
+   `cd project-management`
+
+2. Install dependencies in both client and server:
+   `cd client`
+   `npm i`
+   `cd ..`
+   `cd server`
+   `npm i`
+
+3. Set up the database:
+   `npx prisma generate`
+   `npx prisma migrate dev --name init`
+   `npm run seed`
+
+4. Configure environment variables:
+
+- `.env` for server settings (PORT, DATABASE_URL)
+- `.env.local` for client settings (NEXT_PUBLIC_API_BASE_URL)
+
+5. Run the project
+   `npm run dev`
+run the development server (client & server):
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
+<br>
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
