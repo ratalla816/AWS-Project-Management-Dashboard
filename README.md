@@ -154,6 +154,7 @@ Documentation: https://docs.aws.amazon.com/lambda/latest/dg/with-s3-example.html
 Deployed script:
 <br>
 
+```
 import https from "node:https";
 
 export const handler = async (event) => {
@@ -204,6 +205,7 @@ export const handler = async (event) => {
 
     return event; 
 }; 
+```
 
 ## Deployment
 
