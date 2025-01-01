@@ -16,6 +16,7 @@ const Navbar = () => {
 
   const { data: currentUser } = useGetAuthUserQuery({});
   const handleSignOut = async () => {
+    // handled by aws-amplify/auth
     try {
       await signOut();
     } catch (error) {
@@ -75,6 +76,7 @@ const Navbar = () => {
         </Link>
         <div className="ml-2 mr-5 hidden min-h-[2em] w-[0.1rem] bg-gray-200 md:inline-block"></div>
         <div className="hidden items-center justify-between md:flex">
+          {/* user profile pic visible on larger screens, hidden on smaller screens */}
           <div className="align-center flex h-9 w-9 justify-center">
             {!!currentUserDetails?.profilePictureUrl ? (
               <Image
