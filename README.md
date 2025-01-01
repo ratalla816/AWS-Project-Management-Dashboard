@@ -34,10 +34,7 @@ This is accomplished by Leveraging AWS Services -  A backend API hosted on an EC
 
 ### Next.js | Material UI | PostgreSQL | Redux Toolkit | Prisma | Amazon Linux | AWS Amplify | AWS EC2 | AWS RDS | AWS Cognito | Tailwind CSS | AWS S3 | AWS Lambda Trigger | AWS API Gateway | PM2  
 
-https://youtu.be/KAV8vo7hGAo?t=33070
-09:11:50 lambda trigger: https://us-east-2.console.aws.amazon.com/lambda/home?region=us-east-2#/functions/pm_lambda-trigger?newFunction=true&tab=code
-
- ## Table of Contents
+## Table of Contents
   - [Description](#description)
   - [Documentation](#documentation)
   - [Deployment](#deployment)
