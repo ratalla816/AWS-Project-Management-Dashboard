@@ -224,11 +224,8 @@ export const handler = async (event) => {
 
 ## Deployment
 
-   * The frontend is deployed using AWS Amplify - deployed application link: <https://main.d9jen3y4cqvrz.amplifyapp.com>
-   <br>   
-   * The backend API is deployed using AWS EC2 with a proxy API via API Gateway: <https://70nlkwfw7i.execute-api.us-east-2.amazonaws.com/prod> 
-   <br>
-   
+   * This application is deployed using AWS Amplify <https://main.d9jen3y4cqvrz.amplifyapp.com>
+     
   
   ## Screenshot
   
@@ -242,14 +239,33 @@ export const handler = async (event) => {
  ![Screenshot](./assets/images/postman-task-patch.jpg)
   <br>
   <br>
-  TBD
+  SideBar functionality
   <br>
- ![Screenshot](./assets/images/TBD.jpg)
+ ![Screenshot](./assets/images/vid1.gif)
+  <br>
+  <br>
+   Easily Export data
+  <br>
+ ![Screenshot](./assets/images/vid2.gif)
+  <br>
+  <br>
+   Kanban Board
+  <br>
+ ![Screenshot](./assets/images/kanban.jpg)
+  <br>
+  <br>
+   Light and Dark modes
+  <br>
+ ![Screenshot](./assets/images/lightdark.jpg)
   
   
   ## Acknowledgements
   
   * Build a Nextjs Project Management App & Deploy on AWS | Cognito, EC2, Node, RDS, Postgres, Tailwind https://www.youtube.com/watch?v=KAV8vo7hGAo&t=382s
+  <br>
+    Ed Roh
+    <br>
+    edroh.com
     
   ## License
   ![badge](https://img.shields.io/badge/license-MIT-important)
