@@ -93,9 +93,11 @@ export const api = createApi({
       queryFn: async (_, _queryApi, _extraoptions, fetchWithBQ) => {
         try {
           const user = await getCurrentUser();
+          // fetched from AWS Amplify 
           const session = await fetchAuthSession();
           if (!session) throw new Error("No session found");
           const { userSub } = session;
+          // userSub is Cognito ID
           const { accessToken } = session.tokens ?? {};
 
           const userDetailsResponse = await fetchWithBQ(`users/${userSub}`);
