@@ -238,7 +238,7 @@ export const handler = async (event) => {
 
    * The frontend is deployed using AWS Amplify - deployed application link: <https://main.d9jen3y4cqvrz.amplifyapp.com>
    <br>   
-   * The backend API is deployed using AWS EC2 with a proxy API via API Gateway - deployed API link: <https://70nlkwfw7i.execute-api.us-east-2.amazonaws.com/prod> 
+   * The backend API is deployed using AWS EC2 with a proxy API via API Gateway: <https://70nlkwfw7i.execute-api.us-east-2.amazonaws.com/prod> 
    <br>
    
   
