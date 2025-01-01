@@ -32,24 +32,12 @@ This is accomplished by Leveraging AWS Services -  A backend API hosted on an EC
 
 ## ⚙️ Technologies
 
-### Next.js | Material UI | PostgreSQL | Prisma | Amazon Linux | AWS Amplify | Amazon EC2 | Amazon RDS | Amazon Cognito | Tailwind CSS | Amazon S3 | AWS Lambda Trigger | AWS API Gateway  
+### Next.js | Material UI | PostgreSQL | Prisma | Amazon Linux | AWS Amplify | Amazon EC2 | Amazon RDS | Amazon Cognito | Tailwind CSS | Amazon S3 | AWS Lambda Trigger | AWS API Gateway | PM2  
 
 https://youtu.be/KAV8vo7hGAo?t=33070
 09:11:50 lambda trigger: https://us-east-2.console.aws.amazon.com/lambda/home?region=us-east-2#/functions/pm_lambda-trigger?newFunction=true&tab=code
 
-<!-- **May need to run**
-next  14.0.0 - 14.2.9
-Severity: high
-Next.js Cache Poisoning - https://github.com/advisories/GHSA-gp8f-8m3g-qvj9
-fix available via `npm audit fix --force`
-Will install next@14.2.14, which is outside the stated dependency range
-node_modules/next
-
-1 high severity vulnerability
-
-To address all issues, run:
-  npm audit fix --force --> 
-  ## Table of Contents
+ ## Table of Contents
   - [Description](#description)
   - [Documentation](#documentation)
   - [Deployment](#deployment)
@@ -57,8 +45,8 @@ To address all issues, run:
   - [Acknowledgements](#acknowledgements)
   - [License](#license)
   - [Contact](#contact)
-
-  ## Documentation
+  
+## Documentation
   
  ### Diagrams
  
@@ -122,10 +110,19 @@ Documentation: https://nodejs.org/docs/latest/api/
   * Express<br>
 Getting Started: https://expressjs.com/en/starter/installing.html
 
+  * Prisma<br>
+Documentation: https://www.prisma.io/docs/
+
+  * PostgreSQL<br>
+Documentation: https://www.postgresql.org/docs/
+
+  * PM2<br>
+Documentation: https://pm2.keymetrics.io/docs/usage/pm2-doc-single-page/
+
   * AWS Amplify<br>
 User guide: https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html
 
-  *AWS Amplify Authenticator<br>
+  * AWS Amplify Authenticator<br>
 User guide: https://ui.docs.amplify.aws/react/connected-components/authenticator
 
   * Amazon EC2<br>
@@ -151,12 +148,70 @@ Documentation: https://www.postgresql.org/docs/
   * AWS Lambda<br>
 Documentation: https://docs.aws.amazon.com/lambda/latest/dg/welcome.html
 
+  * Lambda Trigger<br>
+Documentation: https://docs.aws.amazon.com/lambda/latest/dg/with-s3-example.html
+<br>
+Deployed script:
+<br>
+
+import https from "node:https";
+
+export const handler = async (event) => {
+    const postData = JSON.stringify({
+        username: event.request.userAttributes["preferred_username"] || event.userName,
+        cognitoId: event.userName,
+        profilePictureUrl: "i1.jpg",
+        teamId: 1
+       });
+        
+    const options = {
+        hostname: "70nlkwfw7i.execute-api.us-east-2.amazonaws.com",
+        port: 443,
+        path: "/create-user",
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            "Content-length": Buffer.byteLength(postData)
+        }
+    };
+    
+     return new Promise((resolve, reject) => {
+         const req = https.request(options, (res) => {
+             res.setEncoding("utf8");
+             let responseBody = "";
+             res.on("data", (chunk) => responseBody += chunk)
+             res.on("end", () => resolve(responseBody));
+       });
+     
+       req.on("error", (error) => reject(error));
+          req.write(postData);
+          req.end();
+     })
+ };
+
+    const responseBody = await new Promise((resolve, reject) => {
+        const req = https.request(options, res => {
+            res.setEncoding("utf8");
+            let body = "";
+            res.on("data", chunk => body += chunk);
+            res.on("end", () => resolve(body));
+        });
+        
+        req.on("error", reject);
+        req.write(postData);
+        req.end();
+    });
+
+    return event; 
+}; 
+
 ## Deployment
 
    * The frontend is deployed using AWS Amplify - deployed application link: <https://main.d9jen3y4cqvrz.amplifyapp.com>
    <br>   
    * The backend API is deployed using AWS EC2 with a proxy API via API Gateway - deployed API link: <https://70nlkwfw7i.execute-api.us-east-2.amazonaws.com/prod> 
- 
+   <br>
+   
   
   ## Screenshot
   
