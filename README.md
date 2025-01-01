@@ -169,8 +169,6 @@ Documentation: https://docs.aws.amazon.com/lambda/latest/dg/welcome.html
 Documentation: https://docs.aws.amazon.com/lambda/latest/dg/with-s3-example.html
 <br>
 Deployed script:
-<br>
-
 ```
 import https from "node:https";
 
