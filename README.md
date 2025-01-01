@@ -14,7 +14,7 @@
 
   <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=aws,react,nodejs,express,materialui,dynamodb" />
+    <img src="https://skillicons.dev/icons?i=aws,react,nextjs,nodejs,express,prisma,linux,postgresql,tailwindcss,materialui,dynamodb" />
   </a>
 </p>
   
@@ -32,7 +32,7 @@ This is accomplished by Leveraging AWS Services -  A backend API hosted on an EC
 
 ## ⚙️ Technologies
 
-### Next.js | Material UI | PostgreSQL | Prisma | AWS Amplify | Amazon EC2 | Amazon RDS | Amazon Cognito | Tailwind | Amazon S3 | AWS Lambda 
+### Next.js | Material UI | PostgreSQL | Prisma | Amazon Linux | AWS Amplify | Amazon EC2 | Amazon RDS | Amazon Cognito | Tailwind CSS | Amazon S3 | AWS Lambda Trigger | AWS API Gateway  
 
 https://youtu.be/KAV8vo7hGAo?t=33070
 09:11:50 lambda trigger: https://us-east-2.console.aws.amazon.com/lambda/home?region=us-east-2#/functions/pm_lambda-trigger?newFunction=true&tab=code
